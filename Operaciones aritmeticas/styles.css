@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 260px;
+    box-shadow: 0 0 15px black;
+}
+
+#pantalla {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 2px solid #243b55;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    background: #243b55;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #141e30;
+}
+
+.limpiar {
+    margin-top: 10px;
+    width: 100%;
+    background: crimson;
+}
